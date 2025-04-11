@@ -1,4 +1,4 @@
-# SEISMIC - ERC20 Deployer & Burner CLI
+# Seismic-BOT - ERC20 Deploy & Burn CLI
 
 SEISMIC adalah CLI sederhana berbasis Node.js yang memungkinkan kamu untuk **deploy**, **burn**, dan **kelola** kontrak token ERC20 secara cepat di jaringan EVM seperti Seismic, dengan dukungan fitur massal dan penyimpanan otomatis ke file.
 
@@ -17,7 +17,8 @@ SEISMIC adalah CLI sederhana berbasis Node.js yang memungkinkan kamu untuk **dep
 # 1. Clone repositori
 git clone https://github.com/didinska21/Seismic-BOT.git
 cd Seismic-BOT
-
+```
+```bash
 # 2. Install dependencies
 npm install
 ```
