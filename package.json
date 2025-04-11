@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "blessed": "^0.1.81",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.8.0",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^8.2.4",
+    "prompt-sync": "^4.2.0",
+    "solc": "^0.8.29"
+  }
+}
