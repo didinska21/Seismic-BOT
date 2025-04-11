@@ -15,8 +15,8 @@ SEISMIC adalah CLI sederhana berbasis Node.js yang memungkinkan kamu untuk **dep
 
 ```bash
 # 1. Clone repositori
-git clone https://github.com/username/seismic.git
-cd seismic
+git clone https://github.com/didinska21/Seismic-BOT.git
+cd Seismic-BOT
 
 # 2. Install dependencies
 npm install
