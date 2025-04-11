@@ -1,73 +1,20 @@
-SEISMIC CLI
+# SEISMIC - ERC20 Token Deployment & Burn CLI
 
-SEISMIC adalah tool berbasis CLI (Command Line Interface) untuk melakukan deploy token ERC20 burnable, burn token, dan burn massal di jaringan EVM (contoh: Seismic Network). Dibangun dengan Node.js dan menggunakan Ethers.js.
+**SEISMIC** adalah sebuah project Node.js berbasis CLI (Command Line Interface) yang memungkinkan kamu untuk melakukan:
+- Deploy kontrak token ERC20 secara manual atau massal.
+- Burn token pada kontrak tertentu.
+- Menyimpan riwayat kontrak yang dideploy.
+- Tampilan CLI interaktif dan berwarna.
 
+## Fitur
+- [x] Deploy ERC20 satuan
+- [x] Deploy ERC20 massal (nama dan simbol random)
+- [x] Burn token (manual dan massal)
+- [x] Auto simpan kontrak yang dideploy
+- [x] Support custom RPC
+- [x] CLI dengan tampilan banner
 
----
-
-Fitur
-
-Deploy token ERC20 dengan fitur burn
-
-Deploy massal token dengan nama & simbol acak
-
-Burn token dari kontrak yang sudah dideploy
-
-Burn massal ke semua kontrak yang tersimpan
-
-Tampilan CLI estetik dengan banner, warna, dan layout rapi
-
-
-
----
-
-Instalasi
-
-git clone https://github.com/username/seismic-cli.git
-cd seismic-cli
-npm install
-
-
----
-
-Konfigurasi
-
-Buat file .env di root folder:
-
-PRIVATE_KEY=0xYOUR_PRIVATE_KEY_HERE
-
-Ganti 0xYOUR_PRIVATE_KEY_HERE dengan private key wallet kamu.
-
-
----
-
-Penggunaan
-
-node deploy.js
-
-Menu:
-
-1. Deploy ERC20
-2. Deploy Massal
-3. Burn Token
-4. Burn Massal
-0. Keluar
-
-
----
-
-Output
-
-Semua kontrak yang dideploy akan disimpan otomatis ke file deployed_contracts.json
-
-Token burn akan dicatat lengkap dengan hash dan address
-
-
-
----
-
-Struktur Folder
-
+## Struktur Folder
 SEISMIC/
 ├── deploy.js
 ├── generateContractCode.js
@@ -78,10 +25,29 @@ SEISMIC/
 ├── package.json
 └── package-lock.json
 
+# SEISMIC INSTALLATION GUIDE
 
----
+# 1. Clone Repository
+git clone https://github.com/username/seismic.git
+cd seismic
 
-License
+# 2. Install Dependencies
+npm install
 
-MIT © 2025 - @didinska
+# 3. Setup .env File
+echo "PRIVATE_KEY=0xPRIVATEKEYANDA" > .env
 
+# 4. Run Script
+node deploy.js
+
+# 5. Menu Navigasi
+# Pilih menu berikut saat script berjalan:
+
+# 1. Deploy ERC20
+# 2. Deploy Massal
+# 3. Burn Token
+# 4. Burn Massal
+# 0. Keluar
+
+# Setiap kontrak yang berhasil dideploy akan otomatis disimpan di:
+# ./deployed_contracts.json
